@@ -10829,13 +10829,19 @@ html {
   height: 100%;
   scroll-padding-top: calc(4.5rem - 1px);
 }
-
+@media (min-width: 992px) {
+  .espacamento{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
 .page-section {
   padding: 6rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
+  margin-top: 30px;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
